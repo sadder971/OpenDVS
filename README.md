@@ -4,9 +4,9 @@
 ## Introduction
 This is an open-source reimplementation of the Data visualization Saliency (DVS) model cited below. It's designed to help evaluate where viewers are most likely to focus their attention in data visualisations.
 
-
+```
 Matzen, L. E., Haass, M. J., Divis, K. M., Wang, Z., & Wilson, A. T. (2017). Data visualization saliency model: A tool for evaluating abstract data visualizations. IEEE Transactions on Visualization and Computer Graphics, 24(1), 563-573.
-
+```
 
 ## Setup Environment
 R Environment: Install R from [CRAN](https://cran.r-project.org).
