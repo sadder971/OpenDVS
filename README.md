@@ -10,8 +10,10 @@ Matzen, L. E., Haass, M. J., Divis, K. M., Wang, Z., & Wilson, A. T. (2017). Dat
 
 ## Setup Environment
 R Environment: Install R from [CRAN](https://cran.r-project.org).
+
 Python Environment: The setup function installs Python and necessary packages or install Python from [python.org](https://www.python.org).
 
+```
 # Load and install packages in R
 files <- list.files(pattern = "[.]R$")
 for (i in files) {
@@ -22,9 +24,11 @@ for (i in files) {
 # Setup Python environment and load Python scripts
 setup()
 source_python("text_saliency.py")
+```
 
 ## Usage
 
+```
 # Use the dvs() function with the path to your visualisation to generate a DVS saliency map.
 map <- dvs("targets/whoQ41_1.png")
 
@@ -70,3 +74,4 @@ origimgsize <- dim(img)
 score <- rocScoreSaliencyVsFixations(map$master_map_resized, 
                                      X, Y, origimgsize)
 score
+```
